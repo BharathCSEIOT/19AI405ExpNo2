@@ -59,7 +59,7 @@ Name: Bharath K
 Reg.No: 21222211006
 ```
 
-```
+<code>
 from collections import defaultdict
 def dfs(graph,start,visited,path):
     path.append(start)
@@ -81,8 +81,7 @@ visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
-
-```
+</code>
 
 <hr>
 <h3>Sample Input</h3>
